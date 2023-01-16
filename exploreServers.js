@@ -2,8 +2,6 @@ const net = require('net');
 const dns = require('dns');
 const tls = require('tls');
 
-const emailServer = "chefbasil.fr";
-
 const possibleServerConfigurations = [
     {port: 25, name: 'SMTP', secure: false},
     {port: 465, name: 'SMTPS', secure: true},
