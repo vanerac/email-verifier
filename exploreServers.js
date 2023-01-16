@@ -72,6 +72,7 @@ const checkServerType = async (server) => {
     let serverType = "unknown";
 
     const mxRecords = await getMXRecords(server);
+    console.log(mxRecords);
 
 
     for (let record of mxRecords) {
