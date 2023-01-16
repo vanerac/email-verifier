@@ -14,8 +14,4 @@ const emailFormats = (serverName) =>  [
 
 const generateEmails = (firstName, lastName, serverName) => emailFormats(serverName).map(format => format(firstName, lastName));
 
-
-// generateEmails('abderahmane', 'hab', emailFormats);
-
-
 module.exports = generateEmails;

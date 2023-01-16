@@ -80,7 +80,6 @@ const checkServerType = async (server) => {
             const connected = await connectToServer(serverConfiguration.port, record.exchange);
             if (connected) {
                 return Object.assign(serverConfiguration, {type: serverConfiguration.name, name: record.exchange});
-                break;
             }
         }
     }

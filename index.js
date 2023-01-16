@@ -28,7 +28,7 @@ const main = async () => {
 
 
 // Errors:
-// Outlook Permission denied from domainm
+// Outlook Permission denied from domain
 // Gandi : Blacklisted address by gandi
 
 
